@@ -18,7 +18,7 @@ function MyCustomPlane() {
   });
 
   return (
-    <Plane args={[10, 10]}>
+    <Plane args={[16, 10]}>
       <shaderMaterial
         ref={material}
         uniforms={uniforms}
