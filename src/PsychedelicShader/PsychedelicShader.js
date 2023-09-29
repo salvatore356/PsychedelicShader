@@ -11,6 +11,7 @@ function MyCustomPlane() {
 
   var uniforms = {
     u_time: { type: "f", value: 1.0 },
+    u_resolution: { type: "vec3", value: new THREE.Vector3(1, 1, 1) },
   };
 
   useFrame(({ clock }) => {
